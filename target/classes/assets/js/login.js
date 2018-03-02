@@ -16,11 +16,10 @@ $(function() {
             // of an input field. Validation rules are defined
             // on the right side
 
-            'email': {
-                required: true,
-                // Specify that email should be validated
-                // by the built-in "email" rule
-                email: true
+            'username': {
+                required: true
+
+
             },
             'password': {
                 required: true,
@@ -34,7 +33,7 @@ $(function() {
                 required: "Please provide a password",
                 minlength: "Your password must be at least 5 characters long"
             },
-            'email': "Please enter a valid email address"
+            'username': "Please enter your username"
         },
 
         // Make sure the form is submitted to the destination defined
